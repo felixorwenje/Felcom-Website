@@ -1,0 +1,248 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+body{
+    background-image:url('../images/bkg.jpg');
+    color:rgb(77, 2, 52);
+    font-family:Arial;
+    font-size: 16px;
+    font-weight:normal;
+    line-height: 1.6em;
+    margin: 0;
+}   
+
+
+.header h1{
+    color: rgb(21, 5, 90);
+    font-size: 160%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: inline-flex;
+    
+
+
+}
+.box{
+    background-color: rgb(186, 133, 235);
+    color: rgb(42, 9, 119);
+    border: 5px orangered;
+    border-bottom: 10px orangered;
+    border-right: 20px orangered;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+.container-3{
+    float: right;
+    background-color: darkorchid;
+    color: white;
+    background-position: center;
+    min-height: 100PX;
+    background-size: contain;
+    width: 84%;
+}
+.container-4{
+    float:left;
+    width:auto;
+    height: auto;
+    padding: 10px;
+    image-resolution: 1240px;
+    
+}
+.video{
+    padding:20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: coral;
+    border-style: solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: green;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   
+    
+}
+.container-2{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+#main-header{
+    
+    color: white;
+    font-stretch: normal;
+    
+    
+}
+#navbar{
+    background-color: darkorange;
+    color: black;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+
+}
+#navbar li{
+display: inline;
+
+
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    
+}
+
+#showcase{
+    background-image:url('../images/showcase.jpg');
+    background-position: center;
+    min-height: 300PX;
+}
+#MAIN{
+    float:left;
+    width:50%;
+    padding:0 30px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: rgb(186, 133, 235);
+    color: rgb(42, 9, 119);
+    border: 5px orangered solid;
+    border-bottom: 10px orangered solid;
+    border-left: 20px orangered solid;
+    border-radius: 15px;
+    margin: 5px;
+}
+#sidebar{
+   
+    width:45%;
+    float: right;
+    padding:10px;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: rgb(154, 230, 13);
+    color: rgb(16, 1, 49);
+    border: 5px rgb(98, 4, 117) solid;
+    border-bottom: 10px rgb(98,4,117) solid;
+    border-right: 20px rgb(98, 4, 117) solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    
+
+}
+#main h3{
+    color: darkmagenta;
+    font-size: 16pt;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+}
+#sidebar h3{
+    color: darkmagenta;
+    font-size: 16pt;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+
+.box h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+}
+.box-1{
+    background-color: rgb(186, 133, 235);
+    color: rgb(42, 9, 119);
+    border: 5px orangered;
+    border-bottom: 10px orangered;
+    border-right: 20px orangered;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.container-1{
+    width: 80%;
+    margin: auto;
+}
+.box-1 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+}
+.cat{
+    background-color: rgb(88, 243, 101);
+    color: rgb(6, 1, 19);
+    border: 5px darkgreen solid;
+    border-bottom: 20px darkgreen solid;
+    border-left: 20px darkgreen solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    line-height: 0.75em;
+    text-align: left;
+    float: right;
+    
+
+}
+.cat h2{
+    text-align: left;
+}
+.cat h3{
+    color: darkmagenta;
+    font-size: 16pt;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.cat ul{
+    padding: 10px;
+    list-style: none;
+}
+.cat li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px blue;
+}
+#main-footer{
+    background-color:darkgreen;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top:40px ;
+    float: none;
+    
+}
+@media(max-width:800px){
+    #main{
+        width: 100%;
+        float: none;
+        float: left;
+    }
+    }
